@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Surprise</title>
+</head>
+<body>
+    <button onclick="displayMessage()">Open for a Valentine's Day message</button>
+    <p id="valentine-message" style="display: none;"></p>
+
+    <script>
+        function displayMessage() {
+            var message = "Happy Valentine's Day! 🌹 You mean the world to me!";
+            document.getElementById("valentine-message").innerHTML = message;
+            document.getElementById("valentine-message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
